@@ -1,25 +1,26 @@
-body{
-    font-family: 'SolaimanLipi',Arial,sans-serif;
+body {
+    font-family: "SolaimanLipi", Arial, sans-serif;
     font-size: 16px;
     color: #0d1219;
     margin: 0;
     padding: 0;
 }
-a{
+a {
     text-decoration: none;
     color: #0d1219;
 }
-a:hover{
+a:hover {
     text-decoration: none;
     color: #9b090d;
 }
-h3,h4{
+h3,
+h4 {
     margin: 0;
 }
-.mt-50{
+.mt-50 {
     margin-top: 50px;
 }
-.mt-60{
+.mt-60 {
     margin-top: 60px;
 }
 /* header area */
@@ -33,7 +34,7 @@ h3,h4{
     left: 0;
     right: 0;
     background: #fff;
-    border-bottom: 1px solid #E5E9F2;
+    border-bottom: 1px solid #e5e9f2;
     color: #0d1219;
 }
 .left-menu {
@@ -45,10 +46,9 @@ h3,h4{
     font-weight: 600;
     padding-left: 10px;
 }
-.right-search{
+.right-search {
     padding-right: 10px;
 }
-
 
 /* home page section title  */
 
@@ -62,7 +62,7 @@ h3,h4{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: #565EFF;
+    color: #565eff;
     font-weight: 500;
     font-size: 14px;
     padding: 10px 0;
@@ -72,12 +72,11 @@ h3,h4{
     font-weight: 900;
     color: #404040;
     margin: 0;
-    
 }
 
 /* New Category list  */
 
-.appCtegroy{
+.appCtegroy {
     background: #fff;
     box-shadow: 0px 2px 3px 1px rgb(82 82 82 / 19%);
     margin-bottom: 10px;
@@ -96,15 +95,15 @@ h3,h4{
     padding-right: 15px;
     flex: none;
 }
-.appCtegroy ul li:last-child{
+.appCtegroy ul li:last-child {
     padding-right: 0px;
 }
 .appCtegroy ul li a {
     color: #0d1219;
     font-size: 16px;
 }
-.appCtegroy ul li a:hover{
-    color: #9B090D;
+.appCtegroy ul li a:hover {
+    color: #9b090d;
 }
 
 /* new big box section  */
@@ -146,13 +145,12 @@ h3,h4{
 }
 .newBoxListItem-text .Newtitle {
     font-size: 14px;
-    line-height:21px ;
+    line-height: 21px;
 }
 
 /* News archive page  */
 
-
-.appSingleBlog{
+.appSingleBlog {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px 1px rgb(82 82 82 / 10%);
@@ -203,8 +201,11 @@ p.appNewsNote {
     color: #696969;
     font-size: 14px;
 }
-p.appNewsNote span {color:#9b090d;}
-.appCategoryList,.appAuthorNew {
+p.appNewsNote span {
+    color: #9b090d;
+}
+.appCategoryList,
+.appAuthorNew {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px 1px rgb(82 82 82 / 10%);
@@ -216,8 +217,14 @@ p.appNewsNote span {color:#9b090d;}
     list-style: none;
 }
 
-.appCategoryList ul.categroy-mentu li {border-bottom: 1px solid #f5f5f5;padding: 10px 6px;display: block;}
-.appCategoryList ul.categroy-mentu li:last-child {border-bottom: none}
+.appCategoryList ul.categroy-mentu li {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 10px 6px;
+    display: block;
+}
+.appCategoryList ul.categroy-mentu li:last-child {
+    border-bottom: none;
+}
 .appCategoryList ul.categroy-mentu li a {
     color: #252525;
     font-size: 18px;
@@ -226,21 +233,23 @@ p.appNewsNote span {color:#9b090d;}
     background: #9b090d;
     border-radius: 10px;
     padding-left: 20px;
-    transition:  1s;
-    
+    transition: 1s;
 }
-.appCategoryList ul.categroy-mentu li:hover a {color: #ffffff;}
+.appCategoryList ul.categroy-mentu li:hover a {
+    color: #ffffff;
+}
 
 /* Search file  */
 
-.newSearchList,.appNewArchive {
+.newSearchList,
+.appNewArchive {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 6px 1px rgb(82 82 82 / 10%);
-    margin:10px 10px 50px 10px;
+    margin: 10px 10px 50px 10px;
 }
-.appNewSearch{
-margin: 10px;
+.appNewSearch {
+    margin: 10px;
 }
 .appNewSearch input {
     background-image: url(../img/search.svg);
@@ -254,7 +263,6 @@ margin: 10px;
     background-size: 24px 24px;
 }
 
-
 /* footer area */
 
 .appBottomMenu {
@@ -263,8 +271,8 @@ margin: 10px;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #FFF;
-    border-top: 1px solid #E5E9F2;
+    background: #fff;
+    border-top: 1px solid #e5e9f2;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -287,5 +295,5 @@ margin: 10px;
     color: #0d1219;
 }
 .appBottomMenu > .item.active a span {
-    color: #9B090D;
+    color: #9b090d;
 }
